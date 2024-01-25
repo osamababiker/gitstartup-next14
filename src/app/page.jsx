@@ -39,7 +39,6 @@ const Home = async () => {
       <Hero />
       {/* /.hero-banner-eleven */}
 
-
       {/* <!-- 
 			=============================================
 				Services Section Thirty Four
@@ -54,7 +53,6 @@ const Home = async () => {
       </div>
       {/* <!-- /.container --> */}
       {/* <!-- /.fancy-feature-thirtyFour --> */}
-
 
       {/*
 			=====================================================
