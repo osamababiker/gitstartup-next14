@@ -3,7 +3,7 @@
 export const getPosts = async () => {
   try {
     const res = await fetch("https://gitstartup.net/api/blogs", {
-      next: { revalidate: 3600 }
+      next: { revalidate: 0 }
     })
     return res.json()
   } catch (err) {
@@ -26,7 +26,7 @@ export const getPostDetails = async (slug) => {
 export const getPartners = async () => {
   try {
     const res = await fetch("https://gitstartup.net/api/partners", {
-      next: { revalidate: 3600 },
+      next: { revalidate: 0 },
     })
     return res.json()
   } catch (err) {
