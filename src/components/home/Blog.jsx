@@ -35,12 +35,13 @@ const Blog = async ({ posts, numbOfPosts = 0 }) => {
             <div className="blog-footer d-flex align-items-center justify-content-between mt-auto">
               <div className="blog-date fw-500 tx-dark">
                 <a href="#" className="fw-normal tran3s">
-                Created on - { moment(post.created_at).format('MMMM Do YYYY') }
+                Created on - { moment(post.created_at).format('MMMM Do YYYY') }  
                 </a>
               </div>
               <Link href={`/blog/${post.slug}`} className="read-more tran3s">
                 <i className="bi bi-arrow-up-right" />
               </Link>
+              
             </div>
             {/* /.blog-footer */}
           </article>
