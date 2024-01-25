@@ -8,7 +8,7 @@ export const getPosts = async () => {
     return res.json()
   } catch (err) {
     console.log(err);
-    throw new Error("Failed to fetch posts!");
+    throw new Error("Oops, Failed to fetch posts!");
   }
 };
 
