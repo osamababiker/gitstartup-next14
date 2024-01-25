@@ -21,9 +21,9 @@ const NotFound = () => {
         <div className="container">
           <div className="row">
             <div className="col-xxl-6 col-lg-7 m-auto">
-              <h3>Opps! you’r on the wrong place.</h3>
+              <h3>Opps! 404</h3>
               <p className="me-xxl-5 ms-xxl-5 pt-15 pb-20">
-                Can not find what you need? .
+                Can not find what you need ? 
               </p>
               <Link href="/" className="btn-twentyOne fw-500 tran3s">
                 Back to home
