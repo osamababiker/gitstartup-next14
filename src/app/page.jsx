@@ -114,7 +114,7 @@ const Home = async () => {
 				Partner Section Six
 			============================================== 
 			*/}
-      <div className="partner-section-six mt-140 lg-mt-80" data-aso="fade-up">
+      <div className="partner-section-six mt-140 lg-mt-80" data-aso="fade-up" id="client">
         <div className="container">
           <div className="top-header">
             <div className="d-flex align-items-center justify-content-between">

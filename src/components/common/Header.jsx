@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"
 import Link from "next/link";
-import ModalContent from "../home/ModalContent";
+import ModalContent from "../home/ModalContent"
 import Image from "next/image"
 
 const Header = () => {
@@ -35,6 +35,7 @@ const Header = () => {
                 <Image src="/images/logo/gitstartup-logo.jpeg" alt="Git Startup" width={95} height={95} />
               </Link>
             </div>
+
             <div className="right-widget">
               <button
                 className="contact-btn-four fw-500"
