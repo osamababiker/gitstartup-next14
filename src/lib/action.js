@@ -6,7 +6,7 @@ export const sendMessage = async (prevState,formData) => {
   const { name, company_name, email, phone, message } = Object.fromEntries(formData);
  
   try {
-    const res = await fetch('https://backend.gitstartup.com/api/messages',{
+    const res = await fetch('https://gitstartup.net/api/messages',{
       method: 'POST',
       body: JSON.stringify(
         { name, company_name, email, phone, message } 
