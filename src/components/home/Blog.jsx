@@ -3,7 +3,7 @@ import moment from 'moment';
 
 
 const Blog = async ({ posts, numbOfPosts = 0 }) => {
- 
+
   if(numbOfPosts > 0) posts = posts.slice(0, numbOfPosts);
 
   return (

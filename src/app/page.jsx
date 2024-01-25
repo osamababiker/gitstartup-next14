@@ -13,8 +13,7 @@ import Image from 'next/image'
 export const metadata = {
   title: 'Git Startup | Home Page',
   description: 'Git Startup is a marketing agency located in Abu Dhabi, specializing in helping innovative startups grow through comprehensive development and marketing services, Git Startup aims to be the leading force in the startup ecosystem',
-} 
- 
+}
 
 
 const Home = async () => {

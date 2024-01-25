@@ -3,7 +3,7 @@
 export const getPosts = async () => {
   try {
     const res = await fetch("https://gitstartup.net/api/blogs", {
-      next: { revalidate: 3600 }
+      cache: 'no-store',
     })
     return res.json()
   } catch (err) {
@@ -22,11 +22,11 @@ export const getPostDetails = async (slug) => {
   }
 };
 
-
+ 
 export const getPartners = async () => {
   try {
     const res = await fetch("https://gitstartup.net/api/partners", {
-      next: { revalidate: 3600 },
+      cache: 'no-store',
     })
     return res.json()
   } catch (err) {

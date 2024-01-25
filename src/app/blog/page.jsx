@@ -12,7 +12,7 @@ export const metadata = {
 }  
 
 
-const Home = async () => {
+const Home = async () => { 
 
   const posts = await getPosts()
 

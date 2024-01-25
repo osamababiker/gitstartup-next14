@@ -4,9 +4,9 @@ import moment from 'moment';
 import { getPosts } from "@/lib/data"
 
 
-const RecentPost = async () => {
+const RecentPost = async () => { 
 
-  const posts = await getPosts()
+  const posts = await getPosts() 
 
   return (
     <>
