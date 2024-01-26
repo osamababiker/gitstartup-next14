@@ -715,9 +715,10 @@
   .block-style-eight {padding: 18px 15px;}
   .portfolio-block-six .img-meta .caption {padding: 15px 5px 20px 15px;}
 
-  /*** */
-  
+  /** */
+  .card-style-fifteen {height: 170px!important;}
 }
+
 
 /*(max-width: 992px)*/
 @media (max-width: 992px) {
@@ -725,8 +726,6 @@
     display: none!important;
   }
 }
-/*(max-width: 991px)*/
-
 
 
 /*Between Grid md*/
