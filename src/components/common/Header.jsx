@@ -1,8 +1,9 @@
-"use client";
+"use client"
 
 import { useEffect, useState } from "react"
 import Link from "next/link";
 import ModalContent from "../home/ModalContent"
+import MainMenu from "./MainMenu"
 import Image from "next/image"
 
 const Header = () => {
@@ -35,6 +36,8 @@ const Header = () => {
                 <Image src="/images/logo/gitstartup-logo.jpeg" alt="Git Startup" width={95} height={95} />
               </Link>
             </div>
+
+            <MainMenu />
 
             <div className="right-widget">
               <button
