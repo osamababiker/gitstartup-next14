@@ -5,15 +5,15 @@ const OurServices = () => {
   const features = [
     {
       background: "#E7F1FF",
-      title: (
+      title: ( 
         <>
           Web & Mobile Applications Development.
         </>
       ),
       description: "100% Reliable",
-      icon: "/images/icon/right-arrow-svgrepo-com.svg",
-      width: "40",
-      height: "40",
+      icon: "/images/icon/app-development.png",
+      width: "80",
+      height: "80",
       delay: "100",
     },
     {
@@ -23,10 +23,10 @@ const OurServices = () => {
           Branding & Digital Marketing.
         </>
       ),
-      width: "40",
-      height: "40",
+      width: "80",
+      height: "80",
       description: "Claim Support",
-      icon: "/images/icon/right-arrow-svgrepo-com.svg",
+      icon: "/images/icon/seo-report.png",
       delay: "200",
     },
     {
@@ -36,10 +36,10 @@ const OurServices = () => {
           24/7 Technical Support.
         </>
       ),
-      width: "40",
-      height: "40",
+      width: "80",
+      height: "80",
       description: "Consultation",
-      icon: "/images/icon/right-arrow-svgrepo-com.svg",
+      icon: "/images/icon/24-hours.png",
       delay: "300",
     },
     {
@@ -49,10 +49,10 @@ const OurServices = () => {
           3D Modeling & WebGL Experiance.
         </>
       ),
-      width: "40",
-      height: "40",
+      width: "80",
+      height: "80",
       description: "Consultation",
-      icon: "/images/icon/right-arrow-svgrepo-com.svg",
+      icon: "/images/icon/3d-model.png",
       delay: "300",
     },
   ];

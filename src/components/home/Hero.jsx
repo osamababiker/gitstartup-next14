@@ -59,7 +59,7 @@ const Hero = () => {
             </div> 
 
             <Image
-              src="/images/shape/shape_142.svg"
+              src="/images/shape/shape-142.svg"
               alt="shape"
               className="shapes lazy-img shape-one"
               width={122}

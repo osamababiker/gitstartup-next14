@@ -1,5 +1,5 @@
-import Link from "next/link";
-
+import Link from "next/link"
+import Image from "next/image"
 
 const MainMenu = () => {
  
@@ -23,7 +23,7 @@ const MainMenu = () => {
           <li className="d-block d-lg-none">
             <div className="logo">
               <Link href="/" className="d-block">
-                <img src="/images/logo/logo.png" alt="" width={38.5} />
+                <Image src="/images/logo/gitstartup-logo.jpeg" alt="Git Startup" width={95} height={95}/>
               </Link>
             </div>
           </li>
@@ -39,17 +39,17 @@ const MainMenu = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="/about" role="button">
+            <Link className="nav-link" href="/#services" role="button">
               Services
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="/courses" role="button">
+            <Link className="nav-link" href="/#clients" role="button">
               Our Clients
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="/shop" role="button">
+            <Link className="nav-link" href="/blog" role="button">
               Our Blog
             </Link>
           </li>

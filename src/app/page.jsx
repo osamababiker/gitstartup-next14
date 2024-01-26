@@ -45,7 +45,7 @@ const Home = async () => {
 				Services Section Thirty Four
 			============================================== 
 			--> */}
-      <div className="fancy-feature-thirtyFour mt-50">
+      <div className="fancy-feature-thirtyFour mt-50" id="services">
         <div className="container">
           <div className="row gx-xxl-5">
             <OurServices />
@@ -64,12 +64,13 @@ const Home = async () => {
       <div
         className="feedback-section-twelve position-relative mt-110 sm-mt-80"
         data-aos="fade-up"
+        id="clients"
       >
         <div className="container">
           <div className="row">
             <div className="col-xl-7 col-md-6 col-sm-8 m-auto">
               <div className="title-style-five text-center mb-80 lg-mb-60">
-                <h2 className="main-title font-recoleta fw-500 tx-dark">
+                <h2 className="main-title font-recoleta fw-500 tx-git-color">
                   What’s our client Say About us.
                 </h2>
               </div>
@@ -93,18 +94,18 @@ const Home = async () => {
         {/* End .container */}
 
         <Image
-          src="/images/shape/shape_143.svg"
+          src="/images/shape/shape-143.svg"
           alt="shape"
           className="shapes lazy-img shape-one"
           width={126}
           height={126}
         />
         <Image
-          src="/images/shape/shape_144.svg"
+          src="/images/shape/shape-144.svg"
           alt="shape"
           className="shapes lazy-img shape-two"
           width={126}
-          height={126}
+          height={126} 
         />
       </div>
       {/* /.feedback-section-twelve */}
@@ -119,7 +120,7 @@ const Home = async () => {
           <div className="top-header">
             <div className="d-flex align-items-center justify-content-between">
               <span className="lines" />
-              <div className="title text-uppercase tx-dark text-center">
+              <div className="title text-uppercase tx-git-color text-center">
                 Our Successful Clients
               </div>
               <span className="lines" />
@@ -147,7 +148,7 @@ const Home = async () => {
             <div className="row">
               <div className="col-xl-6">
                 <div className="title-style-five text-center text-md-start mb-30 md-mb-10">
-                  <h2 className="main-title font-recoleta fw-500 tx-dark">
+                  <h2 className="main-title font-recoleta fw-500 tx-git-color">
                     Our Blog
                   </h2>
                 </div>
@@ -161,7 +162,7 @@ const Home = async () => {
             {/* End .row */}
 
             <div className="btn-holder text-center">
-              <div className="btn-eighteen position-relative d-inline-block tx-dark sm-mt-60">
+              <div className="btn-eighteen position-relative d-inline-block tx-git-color sm-mt-60">
                 <Link href="/blog" className="fw-500 tran3s">
                   Check our all articals <i className="fa-solid fa-angle-right" />
                 </Link>
@@ -189,7 +190,7 @@ const Home = async () => {
           <div className="wrapper pb-90 lg-pb-40">
             <div className="row align-items-center">
               <div className="col-lg-8 col-md-9">
-                <h2 className="title font-recoleta fw-normal tx-dark position-relative m0 text-center text-md-start sm-pb-30">
+                <h2 className="title font-recoleta fw-normal tx-git-color position-relative m0 text-center text-md-start sm-pb-30">
                   Any <span> Issue, Idea or Project</span> ? Let’s Chat.
                 </h2>
               </div>

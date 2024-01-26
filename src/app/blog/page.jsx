@@ -37,7 +37,7 @@ const Home = async () => {
             <div className="row">
               <div className="col-xl-6">
                 <div className="title-style-five text-center text-md-start mb-30 md-mb-10">
-                  <h2 className="main-title font-recoleta fw-500 tx-dark">
+                  <h2 className="main-title font-recoleta fw-500 tx-git-color">
                     Our Blog
                   </h2>
                 </div>
@@ -71,7 +71,7 @@ const Home = async () => {
           <div className="wrapper pb-90 lg-pb-40">
             <div className="row align-items-center">
               <div className="col-lg-8 col-md-9">
-                <h2 className="title font-recoleta fw-normal tx-dark position-relative m0 text-center text-md-start sm-pb-30">
+                <h2 className="title font-recoleta fw-normal tx-git-color position-relative m0 text-center text-md-start sm-pb-30">
                   Any <span> Issue, Idea or Project</span> ? Let’s Chat.
                 </h2>
               </div>

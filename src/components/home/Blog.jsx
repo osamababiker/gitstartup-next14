@@ -33,7 +33,7 @@ const Blog = async ({ posts, numbOfPosts = 0 }) => {
               </Link>
             </div>
             <div className="blog-footer d-flex align-items-center justify-content-between mt-auto">
-              <div className="blog-date fw-500 tx-dark">
+              <div className="blog-date fw-500 tx-git-color">
                 <a href="#" className="fw-normal tran3s">
                 Created on - { moment(post.created_at).format('MMMM Do YYYY') }  
                 </a>

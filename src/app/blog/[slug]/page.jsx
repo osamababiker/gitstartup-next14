@@ -50,14 +50,14 @@ const PostDetails = async ({ params }) => {
                 <Link href="/" >Git Startup </Link> -
                 { moment(post.created_at).format('MMMM Do YYYY') } 
               </p>
-              <h2 className="blog-heading-one tx-dark">{post.en_title}</h2>
+              <h2 className="blog-heading-one tx-git-color">{post.en_title}</h2>
             </div>
           </div>
         </div>
         {/* /.container */}
 
         <Image
-          src="/images/shape/shape_172.svg"
+          src="/images/shape/shape-172.svg"
           alt="shape"
           className="lazy-img shapes shape-two"
           width={164}

@@ -6,7 +6,7 @@ const Block = () => {
       <div className="row align-items-end" data-aos="fade-up">
         <div className="col-md-5 col-sm-4">
           <Image
-            src="/images/shape/shape_136.svg"
+            src="/images/shape/shape-136.svg" 
             alt="shape"
             className="lazy-img d-none d-sm-inline-block"
             width={100}
@@ -37,7 +37,7 @@ const Block = () => {
             developing a compelling social media strategy, and working with you on a daily basis to expand your online audience and convert them into loyal customers.
             </p>
             <Image
-              src="/images/shape/shape_138.svg"
+              src="/images/shape/shape-138.svg"
               alt="sahpe"
               className="lazy-img shapes shape-one"
               width={100}
@@ -60,7 +60,7 @@ const Block = () => {
           </div> 
           {/* /.block-wrapper */}
           <Image
-            src="/images/shape/shape_137.svg"
+            src="/images/shape/shape-137.svg"
             alt="shape"
             className="lazy-img mt-30 ms-auto me-auto d-none d-sm-inline-block"
             width={100}

@@ -33,7 +33,7 @@
   --prime-one: #F98F9A;
   --prime-two: #F98F9A;
   --prime-three: #6a45ff;
-  --prime-four: #ffcd45;
+  --prime-four: #ffcd45; 
   --prime-five: #007bff;
   --prime-six: #ffd338;
   --prime-seven: linear-gradient(-90deg, #ff7df2 0%, #ff275b 100%);
@@ -42,6 +42,7 @@
   --prime-ten: #F98F9A;
   --prime-eleven: #3e5593;
   --prime-twelve: #ffe500;
+  --prime-git-color: #483F6C;
 }
 ::selection {
   background-color: #2a2a2a;
@@ -198,7 +199,7 @@ h4,
 h5,
 .h6,
 h6 {
-  color: var(--heading);
+  color: var(--prime-git-color);
 }
 .h1,
 h1 {
@@ -282,6 +283,9 @@ p {
 .tx-dark {
   color: #000;
 }
+.tx-git-color {
+  color: var(--prime-git-color);
+}
 .p-30 {
   padding: 30px;
 }
@@ -347,7 +351,7 @@ p {
   font-size: 25px;
   cursor: pointer;
   border-radius: 50%;
-  background: #000;
+  background: var(--prime-git-color);
   transition: all 0.3s ease-in-out;
 }
 .scroll-top:after {
@@ -912,7 +916,7 @@ body .btn-eighteen:before {
   bottom: -4px;
   height: 2px;
   width: 100%;
-  background: #000;
+  background: var(--prime-git-color);
 }
 body .btn-eighteen a:hover {
   color: var(--prime-nine);
@@ -943,7 +947,7 @@ body .btn-twentyOne {
   line-height: 50px;
   padding: 0 35px;
   border-radius: 30px;
-  background: #000;
+  background: var(--prime-git-color);
   color: #fff;
   letter-spacing: -0.36px;
 }
@@ -964,7 +968,7 @@ body .btn-twentyTwo:hover {
 body .btn-twentyThree {
   width: 122px;
   height: 122px;
-  background: #000;
+  background: var(--prime-git-color);
   border-radius: 0 50% 0 0;
   transition: all 0.3s ease-in-out;
 }
@@ -1105,7 +1109,7 @@ body .btn-twentyFive:hover {
   color: #fff;
 }
 .theme-main-menu .right-widget .contact-btn-four {
-  color: #000;
+  color: var(--prime-git-color);
   position: relative;
   z-index: 1;
   height: 70px;
@@ -1123,7 +1127,7 @@ body .btn-twentyFive:hover {
   height: 2px;
   left: 0;
   bottom: 0;
-  background: #000;
+  background: var(--prime-git-color);
 }
 .theme-main-menu .right-widget .contact-btn-four span {
   display: inline-block;
@@ -1137,7 +1141,7 @@ body .btn-twentyFive:hover {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background: #000;
+  background: var(--prime-git-color);
   z-index: -1;
   top: 50%;
   transform: translateY(-50%);
@@ -2398,7 +2402,7 @@ body .btn-twentyFive:hover {
   border-radius: 0;
   font-size: 22px;
   line-height: 1.41em;
-  color: #000;
+  color: var(--prime-git-color);
   padding: 29px 20%;
 }
 .fancy-feature-four .nav-tabs .nav-item.show .nav-link,
@@ -4151,7 +4155,7 @@ body .btn-twentyFive:hover {
   width: 100%;
   max-width: 100%;
   border: none;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid var(--prime-git-color);
   color: #000;
   font-size: 18px;
 }
@@ -4178,7 +4182,7 @@ body .btn-twentyFive:hover {
 .footer-style-four .social-icon a {
   font-size: 22px;
   margin: 0 13px;
-  color: rgba(0, 0, 0, 0.7);
+  color: var(--prime-git-color);
   transition: all 0.3s ease-in-out;
 }
 .footer-style-four .social-icon a:hover {
@@ -4186,7 +4190,7 @@ body .btn-twentyFive:hover {
 }
 .footer-style-four .mail {
   font-size: 20px;
-  color: #000;
+  color: var(--prime-git-color);
 }
 .footer-style-four .mail .icon {
   width: 42px;
@@ -4194,7 +4198,7 @@ body .btn-twentyFive:hover {
   color: #fff;
   font-size: 20px;
   margin-right: 15px;
-  background: #000;
+  background: var(--prime-git-color);
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .hero-banner-five {
@@ -5525,7 +5529,7 @@ body .btn-twentyFive:hover {
   padding: 32px 0;
   box-shadow: none;
   border-radius: 0;
-  color: #000;
+  color: var(--prime-git-color);
   background: transparent;
   transition: all 0.3s ease-in-out;
 }
@@ -6814,7 +6818,7 @@ body .btn-twentyFive:hover {
   padding: 37px;
   height: 250px;
   border: 1px solid transparent;
-  border-color: #000;
+  border-color: var(--prime-git-color);
 }
 .card-style-fifteen:hover {
   border-color: var(--prime-ten);
@@ -7318,7 +7322,7 @@ body .btn-twentyFive:hover {
 }
 .hero-banner-eleven .mail-info {
   font-size: 28px;
-  color: #000;
+  color: var(--prime-git-color);
   text-decoration: underline;
 }
 .hero-banner-eleven .mail-info:hover {
@@ -7420,7 +7424,7 @@ body .btn-twentyFive:hover {
 .feedback-block-twelve .icon {
   width: 60px;
   height: 60px;
-  background: #000;
+  background: var(--prime-git-color);
 }
 .feedback-block-twelve p {
   font-size: 36px;
@@ -7444,7 +7448,7 @@ body .btn-twentyFive:hover {
   border: 1px solid #000;
 }
 .feedback_slider_nine .slick-dots li.slick-active button {
-  background: #000;
+  background: var(--prime-git-color);
   transform: scale(1);
 }
 .feedback-section-twelve .shape-one {
@@ -7458,7 +7462,7 @@ body .btn-twentyFive:hover {
 /*^^^^^^^^^^^^^^^^^^^^^ Partner Section Six ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .partner-section-six .top-header {
   padding: 0 0 70px;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid var(--prime-git-color);
 }
 .partner-section-six .top-header .title {
   font-size: 16px;
@@ -7470,7 +7474,7 @@ body .btn-twentyFive:hover {
   display: inline-block;
   height: 2px;
   width: 100%;
-  background: #000;
+  background: var(--prime-git-color);
   flex-grow: 1;
 }
 .partner-section-six .icon {
@@ -7501,12 +7505,12 @@ body .btn-twentyFive:hover {
 .blog-meta-five .tag {
   font-size: 12px;
   letter-spacing: 1px;
-  border: 1px solid #000;
+  border: 1px solid var(--prime-git-color);
   padding: 3px 11px;
-  color: #000;
+  color: var(--prime-git-color);
 }
 .blog-meta-five .tag:hover {
-  background: #000;
+  background: var(--prime-git-color);
   color: #fff;
 }
 .blog-meta-five .blog-title {
@@ -7515,7 +7519,7 @@ body .btn-twentyFive:hover {
 }
 .blog-meta-five .blog-date a:hover,
 .blog-meta-five .blog-title:hover {
-  color: #000;
+  color: var(--prime-one);
   text-decoration: underline;
 }
 .blog-meta-five .read-more {
@@ -7523,7 +7527,7 @@ body .btn-twentyFive:hover {
   height: 45px;
   text-align: center;
   line-height: 45px;
-  background: #000;
+  background: var(--prime-git-color);
   color: #fff;
   font-size: 24px;
 }
@@ -7564,7 +7568,7 @@ body .btn-twentyFive:hover {
   bottom: 24px;
 }
 .fancy-short-banner-fourteen .wrapper {
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid var(--prime-git-color);
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Twelve ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .hero-banner-twelve {
@@ -8507,7 +8511,7 @@ body .btn-twentyFive:hover {
 }
 .blog-meta-six .blog-date a:hover,
 .blog-meta-six .blog-title:hover {
-  color: #000;
+  color: var(--prime-one);
   text-decoration: underline;
 }
 .blog-meta-six .read-more {
@@ -9378,7 +9382,7 @@ body .btn-twentyFive:hover {
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Blog Details One ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .blog-pubish-date a {
-  color: #000;
+  color: var(--prime-git-color);
 }
 .blog-pubish-date a:hover {
   text-decoration: underline;
@@ -9408,7 +9412,7 @@ body .btn-twentyFive:hover {
 }
 .blog-details-one .blog-details-content .tags li:first-child {
   font-weight: 500;
-  color: #000;
+  color: var(--prime-git-color);
   padding-right: 5px;
 }
 .blog-details-one .blog-details-content .tags li {
@@ -9432,7 +9436,7 @@ body .btn-twentyFive:hover {
   border-radius: 50%;
   background: #eeeded;
   text-align: center;
-  color: #000;
+  color: var(--prime-git-color);
   font-size: 16px;
   margin-left: 10px;
   transition: all 0.3s ease-in-out;
