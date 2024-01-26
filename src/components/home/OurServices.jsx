@@ -39,7 +39,7 @@ const OurServices = () => {
       width: "80",
       height: "80",
       description: "Consultation",
-      icon: "/images/icon/24-hours.png",
+      icon: "/images/icon/technical-support.png",
       delay: "300",
     },
     {
