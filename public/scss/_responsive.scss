@@ -723,8 +723,7 @@
   .d-flex-mobile img{
     position: relative!important;
     bottom: 0px;
-    right: 0;
-    
+    left: 0; 
   }
 }
 
@@ -832,6 +831,10 @@
   .grid-3column .isotop-item, .grid-3column .grid-sizer {width: 100%;}
   .portfolio-details-one .project-pagination .pg-title {font-size: 25px;}
   .blog-comment-area .comment p {padding: 15px 0 0 0;}
+
+  .d-flex-mobile{
+    height: 150px;
+  }
 }
 /*(max-width: 767px)*/
 

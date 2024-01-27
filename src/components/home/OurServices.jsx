@@ -70,7 +70,7 @@ const OurServices = () => {
             <div
               className={`card-style-fifteen tran3s position-relative mt-35 d-flex-mobile`}
             >
-              <h4>{feature.title}</h4>
+              <h4>{feature.title}</h4> 
               <Image
                 width={feature.width}
                 height={feature.height}
