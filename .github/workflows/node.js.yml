@@ -41,4 +41,4 @@ jobs:
 
     - name: Change Directory
       run: cd /home/osamababiker/actions-runner/_work/gitstartup-next14/gitstartup-next14
-    - run: pm2 restart 0
+    - run: pm2 restart all
