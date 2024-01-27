@@ -54,8 +54,29 @@ const Block = () => {
               <span>24/7 Technical Support.</span> 
             </h3>
             <p>
-            "Focus 100% on your business and leave all the technical issues to us.
-            With a team of experts who have spent decades resolving problems and assisting others, we can be at your service 24/7."
+            Focus 100% on your business and leave all the technical issues to us.
+            With a team of experts who have spent decades resolving problems and assisting others, we can be at your service 24/7.
+            </p>
+          </div> 
+          {/* /.block-wrapper */}
+          <Image
+            src="/images/shape/shape-137.svg"
+            alt="shape"
+            className="lazy-img mt-30 ms-auto me-auto d-none d-sm-inline-block"
+            width={100}
+            height={100}
+          />
+        </div>
+
+        <div className="col-sm-8 wow fadeInUp">
+          <div className="block-wrapper block-three mt-50 sm-mt-30">
+            <h3 style={{ color: "#7AABEE" }}>
+              <span>On Call Business Consultation.</span> 
+            </h3>
+            <p>
+              At Git Startup, we recognize the unique challenges and immediate needs that entrepreneurs and businesses face in today's dynamic environment. 
+              That's why we're proud to offer our On Call Business Consultation service, a dedicated solution for those seeking prompt, professional advice. 
+              Whether you're grappling with strategic decisions, operational issues, or technological challenges, our team of seasoned experts is just a call away. Tailored to provide flexible, real-time assistance, our service ensures that you have access to insightful guidance and practical solutions, whenever and wherever you need them. With Git Startup's On Call Business Consultation, you're never alone on your business journey.
             </p>
           </div> 
           {/* /.block-wrapper */}

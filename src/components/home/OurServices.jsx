@@ -7,7 +7,7 @@ const OurServices = () => {
       background: "#E7F1FF",
       title: ( 
         <>
-          Web & Mobile Applications Development.
+          Web & Mobile App's Development.
         </>
       ),
       description: "100% Reliable",
@@ -17,15 +17,15 @@ const OurServices = () => {
       delay: "100",
     },
     {
-      background: "#FBF1FF",
+      background: "#EEFBFA",
       title: (
         <>
-          Branding & Digital Marketing.
+          Branding and Digital Marketing.
         </>
       ),
       width: "80",
       height: "80",
-      description: "Claim Support",
+      description: "Consultation",
       icon: "/images/icon/seo-report.png",
       delay: "200",
     },
@@ -33,7 +33,7 @@ const OurServices = () => {
       background: "#EEFBFA",
       title: (
         <>
-          24/7 Technical Support.
+          On Demand  Technical Support.
         </>
       ),
       width: "80",
@@ -46,13 +46,13 @@ const OurServices = () => {
       background: "#F3EEEC",
       title: (
         <>
-          3D Modeling & WebGL Experiance.
+          On Call Business Consultation.
         </>
       ),
       width: "80",
       height: "80",
       description: "Consultation",
-      icon: "/images/icon/3d-model.png",
+      icon: "/images/icon/consulting.png",
       delay: "300",
     },
   ];
@@ -68,7 +68,7 @@ const OurServices = () => {
         >
           <Link href="/about" className="d-block">
             <div
-              className={`card-style-fifteen tran3s position-relative mt-35`}
+              className={`card-style-fifteen tran3s position-relative mt-35 d-flex-mobile`}
             >
               <h4>{feature.title}</h4>
               <Image

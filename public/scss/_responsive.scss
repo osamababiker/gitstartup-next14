@@ -716,7 +716,16 @@
   .portfolio-block-six .img-meta .caption {padding: 15px 5px 20px 15px;}
 
   /** */
-
+  .d-flex-mobile{
+    display: flex!important;
+    height: 120px;
+  }
+  .d-flex-mobile img{
+    position: relative!important;
+    bottom: 0px;
+    right: 0;
+    
+  }
 }
 
 
