@@ -7,7 +7,7 @@ const nextConfig = {
                 hostname: 'gitstartup.net',
             },
         ],
-    },
+    }
 }
 
 module.exports = nextConfig
