@@ -131,7 +131,7 @@ const PostDetails = async ({ params }) => {
             <div className="col-lg-4 mb-30 order-lg-0">
               <div className="logo d-flex justify-content-center justify-content-lg-start">
                 <Link href="/">
-                  <Image src="/images/logo/gitstartup-logo.jpeg" alt="Git Startup" width={77} height={77} />
+                  <Image src="/images/logo/gitstartup_logo.png" alt="Git Startup" width={77} height={77} />
                 </Link>
               </div>
             </div>

@@ -3,7 +3,7 @@ const BannerPost = () => {
   return (
     <div
       className="sidebar-banner-add"
-      style={{ backgroundImage: "url(/images/blog/launch.jpg)" }}
+      style={{ backgroundImage: "url(/images/blog/launch-min.jpg)" }}
     >
       <div className="banner-content">
         <h4>

@@ -33,7 +33,7 @@ const Header = () => {
           <div className="d-flex align-items-center justify-content-between">
             <div className="logo order-lg-0">
               <Link href="/" className="d-block">
-                <Image src="/images/logo/gitstartup-logo.jpeg" alt="Git Startup" width={95} height={95} />
+                <Image src="/images/logo/gitstartup_logo.png" alt="Git Startup" width={95} height={95} />
               </Link>
             </div>
 
