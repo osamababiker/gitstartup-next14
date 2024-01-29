@@ -45,7 +45,7 @@ const Header = () => {
                 data-bs-toggle="modal"
                 data-bs-target="#contactModal"
               >
-                <em>Contact </em> <span>Us</span>
+                <em>Book a </em> <span>Call</span>
                 <i className="bi bi-arrow-up-right" />
               </button>
             </div>
