@@ -16,7 +16,7 @@ const Blog = async ({ posts, numbOfPosts = 0 }) => {
           data-aos-delay={post.id * 100}
         >
           <article
-            className="blog-meta-five d-flex flex-column position-relative tran3s mb-60 lg-mb-50 wow fadeInUp"
+            className="blog-meta-five d-flex flex-column position-relative tran3s mb-60 lg-mb-50 wow fadeInUp" 
             id={`post-${post.id}`}
           >
             <div>

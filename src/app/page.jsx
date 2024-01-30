@@ -157,7 +157,7 @@ const Home = async () => {
             {/* End .row */}
 
             <div className="row gx-xxl-5">
-              <Blog posts={ posts } numbOfPosts={ 3 } />
+              <Blog posts={ posts } numbOfPosts={ 4 } />
             </div>
             {/* End .row */}
 

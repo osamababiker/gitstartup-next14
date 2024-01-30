@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 const OurServices = () => {
@@ -68,16 +68,16 @@ const OurServices = () => {
         >
           <Link href="/about" className="d-block">
             <div
-              className={`card-style-fifteen tran3s position-relative mt-35 d-flex-mobile`}
+              className={`blog-meta-five card-style-fifteen  tran3s position-relative mt-35 d-flex-mobile`}
             >
               <h4>{feature.title}</h4> 
-              <Image
+              {/* <Image
                 width={feature.width}
                 height={feature.height}
                 src={feature.icon}
                 alt="icon"
                 className="position-absolute"
-              />
+              /> */}
             </div>{" "}
             {/* /.card-style-fifteen */}
           </Link>
