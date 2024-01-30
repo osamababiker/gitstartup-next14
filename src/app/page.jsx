@@ -56,6 +56,7 @@ const Home = async () => {
       {/* <!-- /.fancy-feature-thirtyFour --> */}
 
 
+
       {/*
 			=====================================================
 				Feedback Section Twelve
@@ -121,7 +122,7 @@ const Home = async () => {
             <div className="d-flex align-items-center justify-content-between">
               <span className="lines" />
               <div className="title text-uppercase tx-git-color text-center">
-                Our Successful Clients
+              CLIENTS WE WORK WITH
               </div>
               <span className="lines" />
             </div>
@@ -135,6 +136,7 @@ const Home = async () => {
         </div>
       </div>
       {/* /.partner-section-six */}
+
 
 
       {/*
