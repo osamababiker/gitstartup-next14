@@ -106,7 +106,7 @@ const Home = async () => {
           alt="shape"
           className="shapes lazy-img shape-two"
           width={126}
-          height={126} 
+          height={126}
         />
       </div>
       {/* /.feedback-section-twelve */}
@@ -256,7 +256,7 @@ const Home = async () => {
       </div>
       {/* /.footer-style-four */}
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
