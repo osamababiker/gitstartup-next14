@@ -12,7 +12,7 @@ import Image from 'next/image'
 
 export const metadata = {
   title: 'Git Startup | Home Page',
-  description: 'Git Startup is a marketing agency located in Abu Dhabi, specializing in helping innovative startups grow through comprehensive development and marketing services, Git Startup aims to be the leading force in the startup ecosystem',
+  description: 'Git Startup is a marketing agency operating in Dubai and Abu Dhabi, specializing in helping innovative businesses grow through comprehensive development and marketing Services, Git Startup aims to be the leading force in the startup ecosystem',
 }
 
 
@@ -260,4 +260,3 @@ const Home = async () => {
 }
 
 export default Home
-// {{app_port}}

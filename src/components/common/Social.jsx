@@ -11,7 +11,7 @@ const socialMedia = [
   },
   {
     iconClass: "fab fa-linkedin",
-    link: "https://www.linkedin.com/in/gitstartup",
+    link: "https://www.linkedin.com/company/gitstartup/",
   },
   {
     iconClass: "fab fa-instagram",
