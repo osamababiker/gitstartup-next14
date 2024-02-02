@@ -65,7 +65,7 @@ const Portfolio = () => {
                 <div className="caption tran3s d-flex justify-content-end flex-column">
                   <span className="tag">{item.captionTags}</span>
                   <h6>
-                    <a href="portfolio-details-v1.html" className="pj-title">
+                    <a href="#" className="pj-title">
                       {item.captionTitle}
                     </a>
                   </h6>
