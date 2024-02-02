@@ -1,19 +1,20 @@
-import Link from "next/link";
-import Header from "@/components/common/Header";
-import OurServices from "@/components/home/OurServices";
-import Hero from "@/components/home/Hero";
-import Testimonial from "@/components/home/Testimonial";
-import Partners from "@/components/home/Partners";
-import Blog from "@/components/home/Blog";
-import Social from "@/components/common/Social";
-import { getPartners, getPosts } from "@/lib/data";
+import Link from "next/link"
+import Header from "@/components/common/Header"
+import OurServices from "@/components/home/OurServices"
+import Hero from "@/components/home/Hero"
+import Portfolio from "@/components/home/Portfolio"
+import Testimonial from "@/components/home/Testimonial"
+import Partners from "@/components/home/Partners"
+import Blog from "@/components/home/Blog"
+import Social from "@/components/common/Social"
+import { getPartners, getPosts } from "@/lib/data"
 import Image from 'next/image'
 
 
 export const metadata = {
   title: 'Git Startup | Home Page',
   description: 'Git Startup is a marketing agency operating in Dubai and Abu Dhabi, specializing in helping innovative businesses grow through comprehensive development and marketing Services, Git Startup aims to be the leading force in the startup ecosystem',
-}
+} 
 
 
 const Home = async () => {
@@ -56,6 +57,25 @@ const Home = async () => {
       {/* <!-- /.fancy-feature-thirtyFour --> */}
 
 
+      {/*
+        =====================================================
+        Portfolio Gallery Two
+        =====================================================
+        */}
+      <div className="portfolio-gallery-two pt-200 lg-pt-80">
+        <div className="container">
+          <div className="wrapper">
+            <div id="isotop-gallery-wrapper">
+              <Portfolio />
+            </div>
+            {/* /#isotop-gallery-wrapper */}
+          </div>
+          {/* /.wrapper */}
+        </div>
+      </div>
+      {/* /.portfolio-gallery-two */}
+
+
 
       {/*
 			=====================================================
@@ -72,7 +92,7 @@ const Home = async () => {
             <div className="col-xl-7 col-md-6 col-sm-8 m-auto">
               <div className="title-style-five text-center mb-80 lg-mb-60">
                 <h2 className="main-title font-recoleta fw-500 tx-git-color">
-                  What’s our client Say About us.
+                  Case Studies.
                 </h2>
               </div>
             </div>
