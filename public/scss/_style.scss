@@ -7352,7 +7352,7 @@ body .btn-twentyFive:hover {
   width: 70px;
   height: 70px;
   line-height: 70px;
-  background: var(--prime-git-color);
+  background: var(--prime-two);
   border-radius: 50%;
   color: #fff;
   font-size: 38px;
@@ -7360,7 +7360,7 @@ body .btn-twentyFive:hover {
   padding-left: 5px;
 }
 .portfolio-block-two .img-holder .video-icon:hover {
-  background: var(--prime-ten);
+  background: var(--prime-git-color);
 }
 .portfolio-block-two .img-holder .caption {
   position: absolute;
@@ -9926,6 +9926,7 @@ body .btn-twentyFive:hover {
   flex-wrap: wrap;
 }
 
+
 /** Loader Indecator */
 .loaderContainer{
   height: 100vh;
@@ -9933,3 +9934,13 @@ body .btn-twentyFive:hover {
   justify-content: center; /* Center horizontally */
   align-items: center;
 }
+
+/** home page video cover image */
+.home-portfolio-cover img{
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+

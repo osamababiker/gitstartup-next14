@@ -17,10 +17,9 @@ const Portfolio = () => {
         {portfolioItems.slice(0, 3).map((item, index) => (
           <div className="isotop-item item-xl" key={index}>
             <div className="portfolio-block-two mb-55 lg-mb-30">
-              <div className="img-holder">
+              <div className="img-holder home-portfolio-cover">
                 <Image
-                  width={1320}
-                  height={611}
+                  fill
                   src={item.imgSrc}
                   alt="portfolio image"
                   className="img-meta w-100 tran6s"
