@@ -1,8 +1,9 @@
 "use client";
 
-import { useFormState } from "react-dom";
-import { sendMessage } from "@/lib/action";
-import { useEffect, useRef } from "react";
+import { useFormState } from "react-dom"
+import { sendMessage } from "@/lib/action"
+import { useEffect, useRef } from "react"
+import Link from "next/link";
  
 const ModalContent = () => {
 
@@ -36,7 +37,7 @@ const ModalContent = () => {
           <div className="row">
             <div className="col-lg-8 col-sm-11 m-auto">
               <div className="form-style-one pt-50 pb-70 lg-pt-30 lg-pb-30">
-                <form action={formAction} id="messageForm">
+                <form action={formAction} id="messageForm"> 
                   <div className="messages" />
                   <div className="row controls">
                     <div className="col-12">
@@ -57,7 +58,7 @@ const ModalContent = () => {
                       <div className="input-group-meta form-group mb-30">
                         <input
                           type="text"
-                          placeholder="Your Company Name*"
+                          placeholder="Your Company*"
                           name="company_name"
                           required="required"
                           data-error="company name is required."
@@ -90,6 +91,29 @@ const ModalContent = () => {
                           required="required"
                           data-error="Valid phone number is required."
                         />
+                        <div className="help-block with-errors" />
+                      </div>
+                    </div>
+                    {/* End .col-12 */}
+
+                    <div className="col-12">
+                      <div className="input-group-meta form-group mb-50">
+                        <label htmlFor="plan">
+                          Choose a Plan* <Link 
+                          className="tx-git-secoundary-color" 
+                          href="/pricing"> Know more ? 
+                          </Link> 
+                        </label> 
+                        <select 
+                          id="plan"
+                          name="plan" 
+                          required="required"
+                          data-error="Valid phone number is required."
+                          >
+                            <option value="Project Based">Project Based</option>
+                            <option value="Part Time">Part Time</option>
+                            <option value="Full Time">Full Time</option>
+                          </select>
                         <div className="help-block with-errors" />
                       </div>
                     </div>

@@ -35,7 +35,7 @@ const MainMenu = () => {
           </li>
           <li className="nav-item">
             <Link className="nav-link" href="/about" role="button">
-              About Us
+              About us
             </Link>
           </li>
           <li className="nav-item">
@@ -44,13 +44,13 @@ const MainMenu = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="/#clients" role="button">
-              Our Clients
+            <Link className="nav-link" href="/#experts" role="button">
+              Our Experts
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="/blog" role="button">
-              Our Blog
+            <Link className="nav-link" href="/pricing" role="button">
+              Pricing
             </Link>
           </li>
 

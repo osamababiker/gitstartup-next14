@@ -8,7 +8,7 @@ import ContentBody from "@/components/blog/blog-details/ContentBody";
 import Social from "@/components/common/Social";
 import Image from "next/image";
 import moment from 'moment';
-import { getPostDetails } from "@/lib/data";
+import { getPostDetails } from "@/lib/data"
 
 export const generateMetadata = async ({ params }) => {
   const { slug } = params;

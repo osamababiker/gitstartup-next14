@@ -4,7 +4,7 @@ import React from "react";
 import Slider from "react-slick";
 
 
-const Testimonial = ({ testimonials }) => {
+const FeedbackTestimonial = ({ testimonials }) => {
 
   const settings = {
     dots: true,
@@ -12,7 +12,7 @@ const Testimonial = ({ testimonials }) => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    responsive: [
+    responsive: [ 
       {
         breakpoint: 768,
         settings: {
@@ -46,5 +46,5 @@ const Testimonial = ({ testimonials }) => {
   );
 };
 
-export default Testimonial;
+export default FeedbackTestimonial;
 

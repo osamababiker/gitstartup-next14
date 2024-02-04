@@ -8,7 +8,7 @@ import Image from "next/image"
 
 export const metadata = {
   title: 'Git Startup | About Us',
-  description: 'Git Startup is a marketing agency operating in Dubai and Abu Dhabi, specializing in helping innovative businesses grow through comprehensive development and marketing Services, Git Startup aims to be the leading force in the startup ecosystem',
+  description: "Grow your business with Git Startup, where we connect you with the industry's best professionals without the high salary and employment costs. Specializing in bridging the gap between ambitious businesses and top-tier talent, we ensure your company flourishes with expert support. Perfect for businesses aiming to grow efficiently and affordably.",
 } 
  
 

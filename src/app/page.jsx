@@ -3,17 +3,17 @@ import Header from "@/components/common/Header"
 import OurServices from "@/components/home/OurServices"
 import Hero from "@/components/home/Hero"
 import Portfolio from "@/components/home/Portfolio"
-import Testimonial from "@/components/home/Testimonial"
+import OurTeamTestimonial from "@/components/home/OurExpertsTestimonial"
 import Partners from "@/components/home/Partners"
 import Blog from "@/components/home/Blog"
 import Social from "@/components/common/Social"
-import { getPartners, getPosts } from "@/lib/data"
+import { getPartners, getPosts, getExperts } from "@/lib/data"
 import Image from 'next/image'
 
 
 export const metadata = {
-  title: 'Git Startup | Home Page',
-  description: 'Git Startup is a marketing agency operating in Dubai and Abu Dhabi, specializing in helping innovative businesses grow through comprehensive development and marketing Services, Git Startup aims to be the leading force in the startup ecosystem',
+  title: 'Git Startup | Industry Experts at Hand',
+  description: "Grow your business with Git Startup, where we connect you with the industry's best professionals without the high salary and employment costs. Specializing in bridging the gap between ambitious businesses and top-tier talent, we ensure your company flourishes with expert support. Perfect for businesses aiming to grow efficiently and affordably.",
 } 
 
 
@@ -21,6 +21,7 @@ const Home = async () => {
 
   const partners = await getPartners()
   const posts = await getPosts()
+  const experts = await getExperts()
 
   return (
     <>
@@ -76,67 +77,39 @@ const Home = async () => {
       {/* /.portfolio-gallery-two */}
 
 
-
-      {/*
-			=====================================================
-				Feedback Section Twelve
+      {/*=====================================================
+				Feedback Section Eleven
 			=====================================================
 			*/}
       <div
-        className="feedback-section-twelve position-relative mt-110 sm-mt-80"
+        className="feedback-section-eleven position-relative mt-110 sm-mt-80"
         data-aos="fade-up"
-        id="clients"
+        id="experts"
       >
         <div className="container">
-          <div className="row">
-            <div className="col-xl-7 col-md-6 col-sm-8 m-auto">
-              <div className="title-style-five text-center mb-80 lg-mb-60">
-                <h2 className="main-title font-recoleta fw-500 tx-git-color">
-                  Case Studies.
-                </h2>
-              </div>
-            </div>
+          <div className="title-style-one text-center mb-50 lg-mb-20">
+            <h2 className="main-title font-recoleta fw-500 tx-git-color">Our Talented Experts.</h2>
           </div>
-          {/* End .row */}
-
-          <div className="row">
-            <div className="col-lg-11 m-auto">
-              <div className="slider-wrapper">
-                <div className="feedback_slider_nine">
-                  <Testimonial testimonials={partners} />
-                </div>
-                {/* /.feedback_slider_nine */}
-              </div>
-              {/* /.slider-wrapper */}
-            </div>
-          </div>
-          {/* /.row */}
         </div>
-        {/* End .container */}
+        <div className="inner-content">
+          <div className="feedback_slider_seven">
+            <OurTeamTestimonial testimonial={ experts }/>
+          </div>
 
-        <Image
-          src="/images/shape/shape-143.svg"
-          alt="shape"
-          className="shapes lazy-img shape-one"
-          width={126}
-          height={126}
-        />
-        <Image
-          src="/images/shape/shape-144.svg"
-          alt="shape"
-          className="shapes lazy-img shape-two"
-          width={126}
-          height={126}
-        />
+          {/* /.slider-wrapper */}
+        </div>
+        {/* /.inner-content */}
       </div>
-      {/* /.feedback-section-twelve */}
+      {/* /.feedback-section-eleven */}
+
+
 
       {/*
 			=============================================
 				Partner Section Six
 			============================================== 
 			*/}
-      <div className="partner-section-six mt-140 lg-mt-80" data-aso="fade-up" id="client">
+      <div className="partner-section-six mt-140 lg-mt-80" data-aso="fade-up">
         <div className="container">
           <div className="top-header">
             <div className="d-flex align-items-center justify-content-between">
@@ -213,7 +186,7 @@ const Home = async () => {
             <div className="row align-items-center">
               <div className="col-lg-8 col-md-9">
                 <h2 className="title font-recoleta fw-normal tx-git-color position-relative m0 text-center text-md-start sm-pb-30">
-                  Any <span> Issue, Idea or Project</span> ? Let’s Chat.
+                  Any <span> Issue, Idea or Project</span> ? Let’s Talk.
                 </h2>
               </div>
               <div className="col-lg-4 col-md-3">
