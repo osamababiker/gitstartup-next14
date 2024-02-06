@@ -159,7 +159,7 @@ const Home = async () => {
             <div className="btn-holder text-center">
               <div className="btn-eighteen position-relative d-inline-block tx-git-color sm-mt-60">
                 <Link href="/blog" className="fw-500 tran3s">
-                  Check our all articals <i className="fa-solid fa-angle-right" />
+                  Check all articals <i className="fa-solid fa-angle-right" />
                 </Link>
               </div>
             </div>
