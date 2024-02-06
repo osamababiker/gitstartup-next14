@@ -115,7 +115,7 @@ const Home = async () => {
             <div className="d-flex align-items-center justify-content-between">
               <span className="lines" />
               <div className="title text-uppercase tx-git-color text-center">
-              CLIENTS WE WORK WITH
+                Our Clients and Partners
               </div>
               <span className="lines" />
             </div>

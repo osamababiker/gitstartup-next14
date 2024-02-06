@@ -43,7 +43,7 @@ const Partners = ({ partners }) => {
       {partners.map((partner) => (
         <div className="item" key={partner.id}>
           <div className="icon d-flex align-items-center justify-content-center">
-            <Link href={partner.link} target="_blank">
+            <Link href="#" target="_blank">
               <Image
                 src={`https://gitstartup.net/upload/partners/${partner.logo}`}
                 alt={partner.name}
