@@ -14,11 +14,11 @@ useEffect(() => {
 }, [])
 
 
-  return (
+  return ( 
     <p>
         { isClient ? parse(expert.bio)  : ''}
     </p>
   )
 }
 
-export default ContentBody;
+export default ContentBody
