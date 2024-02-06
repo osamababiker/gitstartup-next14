@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Header from "@/components/common/Header"
 import Hero from "@/components/expert/Hero"
-import ContactForm from "@/components/expert/contactForm"
+import ContactForm from "@/components/expert/ContactForm"
 import Social from "@/components/common/Social"
 import Image from 'next/image'
 import { getExpertDetails } from "@/lib/data"

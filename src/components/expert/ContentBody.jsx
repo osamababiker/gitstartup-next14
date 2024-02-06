@@ -4,7 +4,7 @@ import parse from 'html-react-parser'
 import { useState, useEffect } from 'react'
 
 
-const ContentBody = ({ post }) => {
+const ContentBody = ({ expert }) => {
 
 // to solve the hydration issue
 const [isClient, setIsClient] = useState(false)
@@ -16,7 +16,7 @@ useEffect(() => {
 
   return (
     <p>
-        { isClient ? parse(post.en_content) : ''}
+        { isClient ? parse(expert.bio)  : ''}
     </p>
   )
 }
