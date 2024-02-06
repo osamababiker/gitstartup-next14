@@ -66,7 +66,7 @@ const OurExpertsTestimonial = ({ testimonial }) => {
                     className="rounded-circle"
                   />
                 </div>
-                <p className="tx-git-color">{item.bio.substring(0, 80)} ...</p>
+                <p className="tx-git-color">{item.intro.substring(0, 80)} ...</p>
               </div>
             </Link>
           </div>

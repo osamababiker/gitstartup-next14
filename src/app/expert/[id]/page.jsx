@@ -15,7 +15,7 @@ export const generateMetadata = async ({ params }) => {
   
     return {
       title: expertDetails.name,
-      description: expertDetails.bio,
+      description: expertDetails.intro,
     };
 };
  

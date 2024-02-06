@@ -1,4 +1,5 @@
-import Image from "next/image";
+import Image from "next/image"
+import parse from 'html-react-parser'
 
 const Hero = ({expert}) => {
   const images = [
@@ -38,7 +39,7 @@ const Hero = ({expert}) => {
   };
 
   return (
-    <div className="hero-banner-four text-center position-relative" id="s1">
+    <div className="hero-banner-four position-relative" id="s1">
       <div className="container">
         <Image
           src={`https://gitstartup.net/upload/experts/${expert.picture}`}
@@ -49,7 +50,7 @@ const Hero = ({expert}) => {
           height={200}
         />
         <div
-          className="profile-name tx-git-color text-lg mt-35 mb-20"
+          className="profile-name tx-git-color text-center text-lg mt-35 mb-20"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -57,7 +58,7 @@ const Hero = ({expert}) => {
         </div>
         <div className="row">
           <div
-            className="col-xxl-11 col-lg-10 col-md-8 m-auto "
+            className="col-xxl-11 col-lg-10 col-md-8 m-auto text-center"
             data-aos="fade-up"
             data-aos-delay="300"
           >
@@ -71,7 +72,7 @@ const Hero = ({expert}) => {
             data-aos-delay="400"
           >
             <p className="text-lg pe-xxl-4 ps-xxl-4 mb-75 lg-mb-50">
-              { expert.bio }
+              { parse(expert.bio) } 
             </p>
           </div>
         </div>
