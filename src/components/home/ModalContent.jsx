@@ -3,7 +3,7 @@
 import { useFormState } from "react-dom"
 import { sendMessage } from "@/lib/action"
 import { useEffect, useRef } from "react"
-import Link from "next/link";
+
  
 const ModalContent = () => {
 
@@ -99,10 +99,7 @@ const ModalContent = () => {
                     <div className="col-12">
                       <div className="input-group-meta form-group mb-50">
                         <label htmlFor="plan">
-                          Choose a Plan* <Link 
-                          className="tx-git-secoundary-color" 
-                          href="/pricing"> Know more ? 
-                          </Link> 
+                          Choose a Plan* 
                         </label> 
                         <select 
                           id="plan"
