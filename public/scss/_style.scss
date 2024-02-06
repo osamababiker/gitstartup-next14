@@ -9951,6 +9951,11 @@ body .btn-twentyFive:hover {
   height: unset !important;
 } 
 
+/** change the toggler icon color */
+.navbar-toggler{
+  background-color: #fff!important;
+}
 
-
-
+.navbar-toggler::before, .navbar-toggler::after, .navbar-toggler span{
+  background-color: var(--prime-git-color);
+}

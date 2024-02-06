@@ -44,7 +44,7 @@ const Header = () => {
                 className="contact-btn-four fw-500"
                 data-bs-toggle="modal"
                 data-bs-target="#contactModal"
-              >
+              > 
                 <em>Book a </em> <span>Call</span>
                 <i className="bi bi-arrow-up-right" />
               </button>

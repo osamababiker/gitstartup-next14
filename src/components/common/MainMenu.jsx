@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const MainMenu = () => {
  
-  return (
+  return ( 
     <nav className="navbar navbar-expand-lg order-lg-2">
       <button
         className="navbar-toggler d-block d-lg-none"
@@ -20,11 +20,24 @@ const MainMenu = () => {
 
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
-          <li className="d-block d-lg-none">
+          <li className="d-flex justify-content-between d-lg-none">
             <div className="logo">
               <Link href="/" className="d-block">
                 <Image src="/images/logo/gitstartup-logo.jpeg" alt="Git Startup" width={95} height={95}/>
               </Link>
+            </div>
+            <div className="pt-40">
+            <button
+              className="navbar-toggler d-block d-lg-none"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span />
+            </button>
             </div>
           </li>
           {/* End li */}
