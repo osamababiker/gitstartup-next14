@@ -117,10 +117,10 @@ const ContactForm = () => {
         <button
           disabled={state?.success}
           type="submit"
-          className="send-btn ripple-btn w-100 fw-500 tran3s text-uppercase text-white"
+          className="btn-twentyOne w-100 fw-500 tran3s text-uppercase text-white"
         >
           Send Message
-        </button>
+        </button> 
         {state?.error && <div className="alert alert-danger mt-4">{state?.error}</div>}
         {state?.success && 
           <div className="alert alert-success mt-4">

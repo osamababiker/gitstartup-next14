@@ -9959,3 +9959,8 @@ body .btn-twentyFive:hover {
 .navbar-toggler::before, .navbar-toggler::after, .navbar-toggler span{
   background-color: var(--prime-git-color);
 }
+
+
+select{
+  background: none!important;
+}

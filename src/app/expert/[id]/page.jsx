@@ -50,7 +50,7 @@ const ExpertDetails = async ({ params }) => {
             Fancy Short Banner Five
         =====================================================
         */}
-      <div className="fancy-short-banner-five p-30 mt-110" id="s5">
+      <div className="fancy-short-banner-five p-30 mt-80" id="s5">
         <div className="bg-wrapper position-relative pt-180 pb-140 lg-pt-80 lg-pb-80">
           <Image
             src="/images/shape/shape_68.svg"
@@ -64,7 +64,7 @@ const ExpertDetails = async ({ params }) => {
             <div
               className="innner-content bg-white position-relative"
               data-aos="fade-up"
-            >
+            > 
               <div className="row align-items-center">
                 <div className="col-lg-5">
                   <h2 className="title-xl font-recoleta fw-500 tx-git-color"> 
