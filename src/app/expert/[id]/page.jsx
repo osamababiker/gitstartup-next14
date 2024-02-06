@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Header from "@/components/common/Header"
 import Hero from "@/components/expert/Hero"
-import ContactForm from "@/components/expert/ContactForm"
+import ExpertContactForm from "@/components/expert/ExpertContactForm" 
 import Social from "@/components/common/Social"
 import Image from 'next/image'
 import { getExpertDetails } from "@/lib/data"
@@ -79,7 +79,7 @@ const ExpertDetails = async ({ params }) => {
                 </div>
                 <div className="col-lg-6 ms-auto">
                   <div className="form-style-one md-mt-40">
-                    <ContactForm />
+                    <ExpertContactForm />
                   </div>
                   {/* /.form-style-one */}
                 </div>

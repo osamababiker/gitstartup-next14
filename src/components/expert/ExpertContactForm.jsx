@@ -1,11 +1,11 @@
-"use client";
+"use client"
 
 import { useFormState } from "react-dom"
 import { sendMessage } from "@/lib/action"
 import { useEffect } from "react"
-import Link from "next/link";
+import Link from "next/link"
 
-const ContactForm = () => {
+const ExpertContactForm = () => {
   
   const [state, formAction] = useFormState(sendMessage, undefined); 
 
@@ -134,4 +134,4 @@ const ContactForm = () => {
   );
 }
 
-export default ContactForm
+export default ExpertContactForm
