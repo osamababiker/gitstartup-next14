@@ -1,5 +1,6 @@
 import Image from "next/image"
-import ContentBody from "./ContentBody";
+import ContentBody from "@/components/expert/ContentBody"
+
 
 const Hero = ({expert}) => {
   const images = [
