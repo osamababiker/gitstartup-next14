@@ -1,7 +1,7 @@
 import Image from "next/image"
-import ContentBody from "@/components/expert/ContentBody"
+import parse from 'html-react-parser'
 
-
+ 
 const Hero = ({expert}) => {
   const images = [
     {
@@ -73,7 +73,7 @@ const Hero = ({expert}) => {
             data-aos-delay="400"
           >
             <p className="text-lg pe-xxl-4 ps-xxl-4 mb-75 lg-mb-50">
-              <ContentBody expert={expert} />
+              { parse(expert.bio) }
             </p>
           </div>
         </div>

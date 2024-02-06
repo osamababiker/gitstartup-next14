@@ -132,6 +132,6 @@ const ContactForm = () => {
     </div>
   </form>
   );
-};
+}
 
-export default ContactForm;
+export default ContactForm
