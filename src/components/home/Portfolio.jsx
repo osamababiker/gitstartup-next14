@@ -18,7 +18,7 @@ const Portfolio = () => {
           <div className="isotop-item item-xl" key={index}>
             <div className="portfolio-block-two mb-55 lg-mb-30">
               <div className="img-holder home-portfolio-cover">
-                <Image
+                <Image 
                   fill
                   src={item.imgSrc}
                   alt="portfolio image"

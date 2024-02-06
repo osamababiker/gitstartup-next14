@@ -11,11 +11,11 @@ const ContactForm = () => {
 
 
   useEffect(() => {
-    document.getElementById("messageForm").reset();
+    document.getElementById("expertMessageForm").reset();
   }, [state?.success]);
 
   return (
-    <form action={formAction} id="messageForm">
+    <form action={formAction} id="expertMessageForm">
     <div className="messages" />
     <div className="row controls">
       <div className="col-12">
@@ -88,6 +88,7 @@ const ContactForm = () => {
             required="required"
             data-error="Valid phone number is required."
             >
+              <option value="not selected"></option>
               <option value="Project Based">Project Based</option>
               <option value="Part Time">Part Time</option>
               <option value="Full Time">Full Time</option>

@@ -3,6 +3,7 @@
 import React from "react";
 import Slider from "react-slick";
 import Image from "next/image"
+import Link from "next/link"
 
 
 const Partners = ({ partners }) => {
@@ -42,13 +43,15 @@ const Partners = ({ partners }) => {
       {partners.map((partner) => (
         <div className="item" key={partner.id}>
           <div className="icon d-flex align-items-center justify-content-center">
-            <Image
-              src={`https://gitstartup.net/upload/partners/${partner.logo}`}
-              alt={partner.name}
-              width={100}
-              height={50}
-              style={{ objectFit: 'contain', }}
-            />
+            <Link href={partner.link} target="_blank">
+              <Image
+                src={`https://gitstartup.net/upload/partners/${partner.logo}`}
+                alt={partner.name}
+                width={100} 
+                height={50}
+                style={{ objectFit: 'contain', }}
+              />
+            </Link>
           </div>
         </div>
       ))}

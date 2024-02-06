@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Git Startup',
   description: 'technical support for your business idea',
-}
+} 
  
 
 export default function RootLayout({ children }) {

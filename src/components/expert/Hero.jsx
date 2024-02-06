@@ -26,11 +26,13 @@ const Hero = ({expert}) => {
 
   const renderImages = () => {
     return images.map((image, index) => (
-      <img
+      <Image
         key={index}
         src={image.src}
         alt={image.alt}
         className={image.className}
+        width={15}
+        height={15}
       />
     ));
   };
@@ -47,7 +49,7 @@ const Hero = ({expert}) => {
           height={200}
         />
         <div
-          className="profile-name tx-dark text-lg mt-35 mb-20"
+          className="profile-name tx-git-color text-lg mt-35 mb-20"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -59,7 +61,7 @@ const Hero = ({expert}) => {
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <h1 className="hero-heading fw-500 font-recoleta tx-dark mb-65 lg-mb-40">
+            <h1 className="hero-heading fw-500 font-recoleta tx-git-color mb-65 lg-mb-40">
               { expert.position }
             </h1>
           </div>
@@ -74,10 +76,6 @@ const Hero = ({expert}) => {
           </div>
         </div>
       </div>
-
-
-    
-
       {renderImages()}
     </div>
   );

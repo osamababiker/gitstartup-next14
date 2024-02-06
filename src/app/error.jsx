@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import Image from 'next/image'
 
@@ -19,12 +21,12 @@ const NotFound = () => {
 			*/}
       <div className="error-page-content d-flex align-items-center justify-content-center">
         <div className="container">
-          <div className="mb-40">
+            <div className="mb-40">
             <Image src="/images/logo/gitstartup_logo.png" alt="Git Startup" width={150} height={150} className="m-auto"  />
-          </div>
+            </div>
           <div className="row">
             <div className="col-xxl-6 col-lg-7 m-auto">
-              <h3>Opps! 404</h3>
+              <h3>Opps! Somesthing went Wrong </h3>
               <p className="me-xxl-5 ms-xxl-5 pt-15 pb-20">
                 Can not find what you need ? 
               </p>

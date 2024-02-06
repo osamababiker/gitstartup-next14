@@ -38,7 +38,7 @@ const Counter = () => {
           >
             <p className="tx-git-color fs-18 m0">{counter.position}</p>
             <InView>
-              {({ inView, ref }) => (
+              {({ ref }) => (
                 <div
                   ref={ref}
                   className="main-count"

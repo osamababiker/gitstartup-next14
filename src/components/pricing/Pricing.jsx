@@ -6,39 +6,39 @@ const Pricing = () => {
       icon: "/images/icon/icon_56.svg",
       plan: "Project Based",
       features: [
-        "Senior Web / App Developer",
-        "Senior Digital Marketing",
-        "Senior Graphic Designer",
-        "Limited Changes"
+        "Functional Website",
+        "Full Marketing Campign",
+        "Branding and Social Media Designs",
+        "2 Time Changes"
       ],
-      price: "5,750 AED",
+      price: "5,750 AED / One Time",
       className: "pr-column pr-one",
     },
     {
       icon: "/images/icon/icon_57.svg",
       plan: "Part Time",
       features: [
-        "Senior Web / App Developer",
-        "Senior Digital Marketing",
-        "Senior Graphic Designer",
+        "Functional Website",
+        "Full Marketing Campign",
+        "Branding and Social Media Designs",
         "Ulimated Changes",
         "3 hours per day"
       ],
-      price: "14,750 AED",
+      price: "14,750 AED / Month",
       className: "pr-column ",
     },
     {
       icon: "/images/icon/icon_58.svg",
       plan: "Full Time",
       features: [
-        "Senior Web / App Developer",
-        "Senior Digital Marketing",
-        "Senior Graphic Designer",
+        "Functional Website",
+        "Full Marketing Campign",
+        "Branding and Social Media Designs",
         "Ulimated Changes",
         "Ulimated Technical Support",
         "Full day",
       ],
-      price: "39,750 AED",
+      price: "39,750 AED / Month",
       className: "pr-column pr-two",
     },
   ];

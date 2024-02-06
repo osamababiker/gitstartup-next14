@@ -22,7 +22,7 @@ export const generateMetadata = async ({ params }) => {
 
 const ExpertDetails = async ({ params }) => {
 
-  const { id } = params
+  const { id } = params 
 
   const expert = await getExpertDetails(id)
 
@@ -59,13 +59,7 @@ const ExpertDetails = async ({ params }) => {
             width={50}
             height={50}
           />
-          <Image
-            src="/images/shape/shape_70.svg"
-            alt="shape"
-            className="lazy-img shapes shape-three"
-            width={50}
-            height={50}
-          />
+       
           <div className="container">
             <div
               className="innner-content bg-white position-relative"
@@ -73,14 +67,14 @@ const ExpertDetails = async ({ params }) => {
             >
               <div className="row align-items-center">
                 <div className="col-lg-5">
-                  <h2 className="title-xl font-recoleta fw-500 tx-git-color">
+                  <h2 className="title-xl font-recoleta fw-500 tx-git-color"> 
                     Let’s
                     <span className="d-inline-block position-relative">
                     Talk
                     </span>
                   </h2>
                   <p className="text-lg mt-35 md-mt-20">
-                    Growing up in poverty, children face tough challenges.
+                    Contact Us now and Let's Discuss Your Next Success.
                   </p>
                 </div>
                 <div className="col-lg-6 ms-auto">

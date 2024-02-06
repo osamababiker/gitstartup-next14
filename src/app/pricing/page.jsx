@@ -17,11 +17,6 @@ export const metadata = {
 
 const Home = async () => { 
 
-    const items = [
-        "15,000 AED per month to hire 1 talented senior developer.",
-        "15,000 AED  trending designing experience.",
-        "Email & Live chat.",
-    ];
 
   return (
     <>
@@ -64,7 +59,7 @@ const Home = async () => {
                     data-aos="fade-up"
                 >
                     <p className="text-lg pe-xxl-4 ps-xxl-4 mb-75 lg-mb-50">
-                        Get the best people to work for you without paying big salaries every month. Our easy-to-use agreements let you pay less and still get great work done, without the hassle of long hiring steps or expensive salaries.
+                        Get the best people to work for you without paying big salaries every month. Our Work Model let you pay less and still get great work done, without the hassle of long hiring steps or expensive salaries.
                     </p>
                 </div>
             </div>
