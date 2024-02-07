@@ -7,7 +7,7 @@ const counters = [
     count: "14 K+", 
     suffix: "AED",
     color: "#F98F9B",
-    position: "Senior Web Developer",
+    position: "Senior Web/Mobile Developer",
     delay: 0,
   },
   {

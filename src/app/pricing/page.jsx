@@ -59,7 +59,7 @@ const Home = async () => {
                     data-aos="fade-up"
                 >
                     <p className="text-lg pe-xxl-4 ps-xxl-4 mb-75 lg-mb-50">
-                        Get the best people to work for you without paying big salaries every month. Our Work Model let you pay less and still get great work done, without the hassle of long hiring steps or expensive salaries.
+                      <span className="fw-500 tx-git-color font-recoleta "> Luckily You Don't have to pay for all this, </span>  Get the best people to work for you without paying big salaries every month. Our Pricing Model let you pay less and still get great work done, without the hassle of long hiring steps or expensive salaries.
                     </p>
                 </div>
             </div>

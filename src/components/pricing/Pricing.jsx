@@ -7,9 +7,9 @@ const Pricing = () => {
       plan: "Project Based",
       features: [
         "Functional Website",
-        "Full Marketing Campign",
-        "Branding and Social Media Designs",
-        "2 Time Changes"
+        "Marketing Campign",
+        "Branding and Social Media Design's",
+        "2 Time Change's"
       ],
       price: "5,750 AED / One Time",
       className: "pr-column pr-one",
@@ -19,12 +19,13 @@ const Pricing = () => {
       plan: "Part Time",
       features: [
         "Functional Website",
-        "Full Marketing Campign",
-        "Branding and Social Media Designs",
-        "Ulimated Changes",
+        "Functional Mobile App",
+        "Marketing Campign's",
+        "Branding and Social Media Design's",
+        "Ulimated Change's",
         "3 hours per day"
       ],
-      price: "14,750 AED / Month",
+      price: "14,750 AED / Monthly",
       className: "pr-column ",
     },
     {
@@ -32,13 +33,14 @@ const Pricing = () => {
       plan: "Full Time",
       features: [
         "Functional Website",
-        "Full Marketing Campign",
-        "Branding and Social Media Designs",
-        "Ulimated Changes",
+        "Functional Mobile App",
+        "Marketing Campign's",
+        "Branding and Social Media Design's",
+        "Ulimated Change's",
         "Ulimated Technical Support",
         "Full day",
       ],
-      price: "39,750 AED / Month",
+      price: "39,750 AED / Monthly",
       className: "pr-column pr-two",
     },
   ];
@@ -63,6 +65,7 @@ const Pricing = () => {
                     </div>
                     <div className="pr-footer pt-45 lg-pt-30">
                       <div className="price tx-git-color mb-30">{plan.price}</div>
+                      <p className="fw-500 font-recoleta"> This plan can be changed based on your needs. </p>
                       <Link href="#" 
                         data-bs-toggle="modal" 
                         data-bs-target="#contactModal" 
