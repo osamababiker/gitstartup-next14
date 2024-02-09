@@ -2,6 +2,7 @@
  
 import { useEffect } from 'react'
 import { hotjar } from 'react-hotjar'
+import ReactGA from 'react-ga4'
 
 function ClientScript() {
 
@@ -12,6 +13,7 @@ function ClientScript() {
   useEffect(() => {
     require('bootstrap/dist/js/bootstrap.min.js')
     hotjar.initialize(siteId, hotjarVersion)
+    ReactGA.initialize('G-12KJ6CFEJ7')
   }, []);
 
   return null;
