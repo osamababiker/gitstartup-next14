@@ -4,13 +4,14 @@ const Pricing = () => {
   const plans = [
     {
       icon: "/images/icon/icon_56.svg",
-      plan: "Free Consultation",
+      plan: "Technical Consultation",
       features: [
         "Related to Website's",
         "Related to Marketing",
         "Related to Branding and Social Media Design's",
       ],
-      price: "0 AED",
+      price: "975 AED",
+      duration: "One Time",
       custom: '',
       className: "pr-column pr-one",
     },
