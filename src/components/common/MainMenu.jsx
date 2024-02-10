@@ -23,9 +23,9 @@ const MainMenu = () => {
           <li className="d-flex justify-content-between d-lg-none">
             <div className="logo">
               <Link href="/" className="d-block">
-                <Image src="/images/logo/gitstartup-logo.jpeg" alt="Git Startup" width={95} height={95}/>
+                <Image src="/images/logo/gitstartup_logo.png" alt="Git Startup" width={95} height={95}/>
               </Link>
-            </div>
+            </div> 
             <div className="pt-40">
             <button
               className="navbar-toggler d-block d-lg-none"
