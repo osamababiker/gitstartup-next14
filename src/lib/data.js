@@ -45,7 +45,7 @@ export const getExperts = async () => {
     console.log(err);
     throw new Error("Oops, Failed to fetch experts!");   
   }
-};
+}
 
 
 export const getExpertDetails = async (id) => {
