@@ -88,8 +88,8 @@ const ExpertContactForm = () => {
             required="required"
             data-error="Valid phone number is required."
             >
-              <option value="not selected"></option>
-              <option value="Free Consultation"> Free Consultation </option>
+              <option value="other"></option>
+              <option value="Technical Consultation"> Technical Consultation </option>
               <option value="Project Based">Project Based</option>
               <option value="Part Time">Part Time</option>
               <option value="Full Time">Full Time</option>
