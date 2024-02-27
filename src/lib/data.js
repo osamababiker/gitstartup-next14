@@ -33,7 +33,7 @@ export const getPartners = async () => {
     console.log(err);
     throw new Error("Oops, Failed to fetch partners!");   
   }
-};
+}
 
 export const getExperts = async () => {
   try {
@@ -57,6 +57,32 @@ export const getExpertDetails = async (id) => {
   } catch (err) {
     console.log(err);
     throw new Error("Oops, Failed to fetch expert details!");   
+  }
+}
+
+
+export const getProjects = async () => {
+  try {
+    const res = await fetch("https://gitstartup.net/api/projects", {
+      next: { revalidate: 3600 },
+    })
+    return res.json()
+  } catch (err) {
+    console.log(err);
+    throw new Error("Oops, Failed to fetch projects!");   
+  }
+}
+
+
+export const getProjectDetails = async (slug) => {
+  try {
+    const res = await fetch(`https://gitstartup.net/api/projects/${slug}`, {
+      next: { revalidate: 3600 },
+    })
+    return res.json()
+  } catch (err) {
+    console.log(err);
+    throw new Error("Oops, Failed to fetch project details!");   
   }
 };
 

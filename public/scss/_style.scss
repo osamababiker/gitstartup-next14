@@ -762,7 +762,7 @@ body .btn-ten:before {
   bottom: 0;
   width: 70px;
   border-radius: 25px;
-  background: var(--prime-four);
+  background: var(--prime-one);
   z-index: -1;
   transition: all 0.3s ease-in-out;
 }
@@ -4107,6 +4107,7 @@ body .btn-twentyFive:hover {
 .fancy-short-banner-five .bg-wrapper {
   background: #f6f9fb;
   z-index: 2;
+  border-radius: 10px;
 }
 .fancy-short-banner-five .shape-one {
   top: 10%;
@@ -4311,9 +4312,6 @@ body .btn-twentyFive:hover {
   top: 25%;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Sixteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.fancy-feature-sixteen {
-  background: #f2ece9;
-}
 .fancy-feature-sixteen .inner-wrapper {
   max-width: 1744px;
   margin: 0 auto;
