@@ -28,7 +28,7 @@ jobs:
     - run: npm run build --if-present
 
     - name: Change Directory
-      run: cd /home/osamababiker/actions-runner/_work/gitstartup-next14/gitstartup-next14
+      run: cd /home/gitstartup/actions-runner/_work/gitstartup-next14/gitstartup-next14
     - run: pm2 restart 0
 
 
